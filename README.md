@@ -5,8 +5,11 @@
 Viết một lớp Java có tên StringUtils với các phương thức sau:
 
 reverse(String input): Trả về chuỗi đảo ngược của chuỗi đầu vào.
+
 isPalindrome(String input): Kiểm tra xem chuỗi đầu vào có phải là palindrome hay không (bỏ qua khoảng trắng, chữ hoa và chữ thường).
+
 countVowels(String input): Trả về số lượng nguyên âm (a, e, i, o, u) trong chuỗi đầu vào.
+
 Tiếp theo, viết các bài kiểm thử đơn vị cho lớp StringUtils.
 
 **Yêu cầu:**
