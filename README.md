@@ -86,3 +86,7 @@ Kết quả:
 ![image](https://github.com/user-attachments/assets/b8971180-f167-451c-b226-ab0dc1d85bc0)
 
 ![image](https://github.com/user-attachments/assets/d129eea3-b570-454a-b9e1-c2be416d177f)
+
+**Link Chat GPT tham khảo:**
+
+[ChatGPT](https://chatgpt.com/share/677c9a33-ff38-8013-abb5-adc782195e8c)
