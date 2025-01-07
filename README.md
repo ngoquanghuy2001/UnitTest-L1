@@ -1,7 +1,7 @@
 # UnitTest-L1
-Dưới đây là một bài tập kiểm thử nâng cao với JUnit, áp dụng cho một số thuật toán thông dụng với các cấu trúc điều khiển và kiểu dữ liệu phong phú.
+## Dưới đây là một bài tập kiểm thử nâng cao với JUnit, áp dụng cho một số thuật toán thông dụng với các cấu trúc điều khiển và kiểu dữ liệu phong phú.
 
-Đề bài:
+**Đề bài:**
 Viết một lớp Java có tên StringUtils với các phương thức sau:
 
 reverse(String input): Trả về chuỗi đảo ngược của chuỗi đầu vào.
@@ -9,15 +9,17 @@ isPalindrome(String input): Kiểm tra xem chuỗi đầu vào có phải là pa
 countVowels(String input): Trả về số lượng nguyên âm (a, e, i, o, u) trong chuỗi đầu vào.
 Tiếp theo, viết các bài kiểm thử đơn vị cho lớp StringUtils.
 
-Yêu cầu:
+**Yêu cầu:**
 Viết lớp StringUtils với các phương thức trên.
 Viết lớp kiểm thử đơn vị StringUtilsTest sử dụng JUnit để kiểm tra:
 Các trường hợp thông thường.
 Các trường hợp đặc biệt (chuỗi rỗng, chuỗi chỉ chứa ký tự đặc biệt, v.v.).
 
-Hướng dẫn giải:
+---
+
+**Hướng dẫn giải:**
 Lớp StringUtils:
-```
+```java
 public class StringUtils {
 
     public String reverse(String input) {
@@ -39,8 +41,11 @@ public class StringUtils {
     }
 }
 ```
+
+---
+
 Lớp kiểm thử StringUtilsTest:
-```
+```java
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -74,18 +79,25 @@ class StringUtilsTest {
     }
 }
 ```
-Hướng dẫn chạy:
+
+---
+
+**Hướng dẫn chạy:**
 Cài đặt JUnit 5 trong dự án của bạn.
 Tạo hai tệp Java:
 StringUtils.java chứa các phương thức.
 StringUtilsTest.java chứa các bài kiểm thử đơn vị.
 Sử dụng IDE hoặc công cụ dòng lệnh để chạy kiểm thử.
 
-Kết quả:
+---
+
+**Kết quả:**
 
 ![image](https://github.com/user-attachments/assets/b8971180-f167-451c-b226-ab0dc1d85bc0)
 
 ![image](https://github.com/user-attachments/assets/d129eea3-b570-454a-b9e1-c2be416d177f)
+
+---
 
 **Link Chat GPT tham khảo:**
 
