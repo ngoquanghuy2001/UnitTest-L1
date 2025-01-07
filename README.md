@@ -17,7 +17,7 @@ Các trường hợp đặc biệt (chuỗi rỗng, chuỗi chỉ chứa ký t�
 
 Hướng dẫn giải:
 Lớp StringUtils:
-
+```
 public class StringUtils {
 
     public String reverse(String input) {
@@ -38,9 +38,9 @@ public class StringUtils {
                 .count();
     }
 }
-
+```
 Lớp kiểm thử StringUtilsTest:
-
+```
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -73,7 +73,7 @@ class StringUtilsTest {
         assertEquals(0, utils.countVowels(null));
     }
 }
-
+```
 Hướng dẫn chạy:
 Cài đặt JUnit 5 trong dự án của bạn.
 Tạo hai tệp Java:
@@ -82,5 +82,7 @@ StringUtilsTest.java chứa các bài kiểm thử đơn vị.
 Sử dụng IDE hoặc công cụ dòng lệnh để chạy kiểm thử.
 
 Kết quả:
+
 ![image](https://github.com/user-attachments/assets/b8971180-f167-451c-b226-ab0dc1d85bc0)
+
 ![image](https://github.com/user-attachments/assets/d129eea3-b570-454a-b9e1-c2be416d177f)
